@@ -1,0 +1,82 @@
+body{
+    background-color: antiquewhite;
+}
+.intros{
+    position: relative;
+    background-color: white;
+    width: 55%;
+    left: 12em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+}
+img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.description{
+    position: relative;
+    left: 1em;
+}
+h1,p,h4{
+    opacity: 0.5;
+    font-size: 13px;
+}
+p{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    color: green;
+    font-size: 40px;
+}
+.final h4{
+    position: relative;
+    left: 2em;
+    font-size: 16px;
+    top: 3em;
+    color: black;
+    text-decoration: line-through;
+
+}
+.button{
+    position: relative;
+    width: 80%;
+    height: 3em;
+    background-color: hsl(120, 100%, 25%);
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+i{
+    position: relative;
+    color: white;
+    right: 10em;
+}
+@media screen and (max-width: 375px){
+    .intros{
+        position: relative;
+        background-color: white;
+        width: 160%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        
+    }
+    img{
+        height: 500px;
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+    }
+    .button{
+        bottom: 2em;
+    }
+    i{
+        right: 2em;
+    }
+}
