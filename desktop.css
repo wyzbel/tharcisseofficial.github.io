@@ -64,6 +64,7 @@ i{
         display: flex;
         flex-direction: column;
         border-radius: 12px;
+        margin-left: 20px;
         
     }
     img{
