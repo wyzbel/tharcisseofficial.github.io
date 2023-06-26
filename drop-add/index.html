@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop and add files</title>
+</head>
+<body>
+    <section class=" language">
+        <input class="lang" type="text">
+        <input onclick="add_language()" id="adding" type="button" value="add language">
+    </section>
+    <tbody>
+        <th class="head1">
+            <tr id="add">add a programming language</tr>
+            <tr id="1"></tr>
+            <tr id="select">select a programming language</tr>
+        </th>
+    </tbody>
+    <script>
+        function add_language(){
+            document.getElementById("adding").innerHTML = "lang";
+        }
+    </script>
+</body>
+</html>
